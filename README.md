@@ -1,2 +1,2 @@
 # sistem_of_inventarisation
-my scholl progecy
+my scholl proget
