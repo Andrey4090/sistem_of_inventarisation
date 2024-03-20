@@ -1,0 +1,192 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(bg.jpg);
+}
+
+/* задаем цвет фона для контейнера nav. */
+nav {
+    display: flex;
+    margin: 0px 0;
+    background-color: #374785;
+    position: sticky;
+    top: 0;
+}
+
+/* убираем отступы и поля, а также list-style для "ul", 
+ * и добавляем "position:relative" */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+    margin: 0px -7px 0 0;
+    display: inline-block;
+    background-color: #374785;
+    border-right: 4px solid #576979;
+}
+
+nav ul li:last-child {
+    border-right: 0;
+}
+
+/* стилизуем ссылки */
+nav a {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: 'bignoodletitling';
+}
+
+/* изменяем цвет фона при наведении курсора */
+nav a:hover {
+    background-color: #8c99a4;
+}
+
+
+
+nav ul:last-child {
+    margin-right: 10px;
+}
+
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'bignoodletitling';
+}
+
+.form_db {
+    margin: 0px auto;
+    padding: 0px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+
+div.form-element {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: yellowgreen;
+    color: white;
+    border: none;
+}
+
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+p.error {
+    background: orangered;
+}
+
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+
+.us_n {
+    margin-left: auto;
+    margin-right: 10px;
+    color: #FFF;
+    font-family: 'bignoodletitling';
+    margin-bottom: 10px;
+}
+
+#container {
+    padding: 0px;
+    width: 100%px;
+    border: 3px solid black;
+    background-color: white;
+    height: auto;
+    overflow: auto;
+    font-family: 'bignoodletitling';
+}
+
+#container_info {
+    padding: 0px;
+    width: 100%px;
+    border: 3px solid black;
+    background-color: white;
+    overflow: auto;
+    height: auto;
+    font-family: 'bignoodletitling';
+}
+
+#container_com {
+    width: 100%px;
+    padding: 0px;
+    border: 3px solid black;
+    background-color: white;
+    overflow: auto;
+    height: auto;
+    font-family: 'bignoodletitling';
+}
+
+.main {
+    width: 70%;
+    margin-left: 15%;
+    margin-left: 15%;
+    background-color: lavender;
+    height: 2000px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.form_com {
+    margin-left: 10px;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.comment {
+    margin-left: 10px;
+}
+table{
+    margin-left: 20%;
+    margin-right: 20%;
+    width:  60%;
+}
+th {
+    background-color: lightblue;
+    color: red;
+    font-family: Arial
+}
+
+td {
+    color: blue;
+    font-family: Times New Roman
+}
