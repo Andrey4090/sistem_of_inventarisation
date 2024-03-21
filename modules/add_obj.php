@@ -39,5 +39,5 @@ if (isset($_POST['name']) && isset($_POST['text'])){
   <input name="name" type="text" placeholder="Название" required/>
   <input name="place" type="text" placeholder="Кабинет(число)" pattern="[а-яА-Я0-9]+"required/>
   <input name="text" type="text" placeholder="Описание" required/>
-  <input type="submit" value="Отправить"/>
+  <input type="submit" value="Загрузить"/>
  </form>

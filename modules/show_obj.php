@@ -14,14 +14,17 @@ $db_name = 'obj';   // Имя базы данных
 <table>
 	<thead>
 		<tr>
+			<th>Артикул</th>
 			<th>Кабинет</th>
 			<th>Название</th>
 			<th>Описание</th>
+			<th>QR-код</th>
 		</tr>
 	</thead>
 	<tbody>
 		<?php foreach ($list as $row): ?>
 		<tr>
+			<td><?php echo $row['id']; ?></td>
 			<td><?php echo $row['place']; ?></td>
 			<td><?php echo $row['name']; ?></td>
 			<td><?php echo $row['text']; ?></td>
